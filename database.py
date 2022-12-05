@@ -18,7 +18,7 @@ import sqlite3
 #     print(record)
 # except sqlite3.Error as error:
 #     print(error)
-print("Марго все равно лучше всех")
+
 
 class SQLite:
 
