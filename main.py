@@ -12,7 +12,7 @@ cg = CoinGeckoAPI()
 from database import SQLite
 bot = telebot.TeleBot("5618060312:AAFKPwJBIHbbK4unvjLJem_22cm5Ck5vago")
 app_id = '6752774e07260308a55a41713b6715ad'
-
+margo = "Марго лучшая"
 db = SQLite("user_telebot.db")
 sqlite_create_table_query = '''CREATE TABLE IF NOT EXISTS users (
                                         id integer,
